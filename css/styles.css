@@ -3,7 +3,7 @@
 ======================================== */
 
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
 * {
 	box-sizing: border-box;
 }
@@ -14,9 +14,9 @@ html, body {
 }
 
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: #1F2235;
 }
 
 header {
@@ -30,7 +30,7 @@ header {
 
 header h1 {
     font-size: 1.25em;
-    color: rgba(50, 50, 50, 0.9);
+    color: #ffffff;
     margin-top: 35px;
 }
 
@@ -85,9 +85,8 @@ header h1 {
     max-width: 360px;
     margin: 10px 10px 20px;
     padding: 10px;
-    background: rgba(245, 245, 245, 0.9);
+    background: #23263a;
     border-radius: 0.25em;
-    border: 1px solid rgba(50, 50, 50, 0.3);
     transition: .4s ease-out;
     overflow: hidden;
 }
@@ -104,11 +103,13 @@ header h1 {
 
 .card-name {
     margin: 20px auto 0;
+    color: #fff;
 }
 
 .card-text {
     font-size: 0.9em;
-    color: rgba(50, 50, 50, 0.7);
+    font-weight: 200;
+    color: #fff;
     margin: 7px auto;
     transition: .4s ease-out;
 }
@@ -248,7 +249,7 @@ header h1 {
         border: 1px solid rgba(50, 50, 50, 0.9);
     }
 
-    .card:hover .card-text {
+    .card:hover .card-text, .card:hover .card-name {
         color: rgba(25, 25, 25, 1); 
     }
 

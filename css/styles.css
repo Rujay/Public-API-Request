@@ -16,7 +16,7 @@ html, body {
 body {
     font-family: "Poppins", sans-serif;
     text-align: center;
-    background: #1F2235;
+    background: #0f1d22;
 }
 
 header {
@@ -85,7 +85,7 @@ header h1 {
     max-width: 360px;
     margin: 10px 10px 20px;
     padding: 10px;
-    background: #23263a;
+    background: #324147;
     border-radius: 0.25em;
     transition: .4s ease-out;
     overflow: hidden;
